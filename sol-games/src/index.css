@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root, body, html{
+    min-height: 100vh;
+    background-color: #fdfdfd;
+}
+    
+/* Estilos padrão para telas maiores */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Estilos para telas de notebook menores (por exemplo, abaixo de 1200px) */
+@media (max-width: 1200px) {
+  .container {
+    width: 95%;
+  }
+  .sidebar {
+    display: none; /* Ou mude para uma posição diferente */
+  }
+}
+
+/* Estilos para telas ainda menores (por exemplo, tablets e smartphones) */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+}

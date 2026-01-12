@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar-sol-games {
+  background-color: #FFD84D;
+  height: 81px;
+  display: flex;
+}
+
+.logo-sol-games-nav {
+  /* border: solid ; */
+  width: 17%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-imagem-real {
+  height: 150px;
+  width: 55%;
+  margin-top: 22px;
+}
+
+.botões-navegacao-sol-nav {
+  /* border: solid blue; */
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  font-size: 14px;
+  font-family: 'orbitron';
+  text-decoration: none;
+}
+
+.link-nav {
+  text-decoration: none;
+  font-family: 'Oxanium', sans-serif;
+  color: black;
+}
+
+.perfil-pesquisa-nav-sol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
+}
+
+.campo-pesquisa {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 20px;
+  gap: 6px;
+}
+
+.icone-lupa {
+  font-size: 18px;
+}
+
+.barra-pesquisa-nav {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+
+/* ///////////////Area perfil modal////////////////////// */
+
+.area-perfil {
+  position: relative;
+}
+
+.icone-perfil {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.modal-perfil {
+  position: absolute;
+  top: 50px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  right: -25px;
+}
+
+.modal-perfil a {
+  color: #ff8c00;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.modal-perfil a:hover {
+  text-decoration: underline;
+}
