@@ -6,6 +6,7 @@ import PedidosVendas from "../../Adm/pages/PedidosVendas";
 import GestaoJogos from "../../Adm/pages/GestaoJogos";
 import GestaoCategorias from "../../Adm/pages/GestaoCategorias";
 import Usuarios from "../../Adm/pages/Usuarios";
+import ConfiguracoesSite from "../../Adm/pages/ConfiguracoesSite";
 
 const Router = createBrowserRouter([
 
@@ -22,6 +23,8 @@ const Router = createBrowserRouter([
             { path: "GestaoCategorias", element: <GestaoCategorias/> },
             { path: "pedidos/vendas", element: <PedidosVendas/> },
             { path: "GestaoUsuarios", element: <Usuarios/> },
+            { path: "ConfiguracoesSite", element: <ConfiguracoesSite/> },
+
            
         ], 
     }

@@ -11,7 +11,7 @@ function Navbar() {
     <div className='navbar-sol-games'>
 
       <div className='logo-sol-games-nav'>
-        <img className='logo-imagem-real' src="Logo sol games.png" alt="" />
+        <img className='logo-imagem-real' src="Logo-sol-games.png" alt="" />
       </div>
 
       <div className='botões-navegacao-sol-nav'>

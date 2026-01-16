@@ -53,6 +53,12 @@ export default function Sidebar() {
   Gestão Usuarios
 </NavLink>
 
+<NavLink
+  to="ConfiguracoesSite"
+  className={({ isActive }) => `menu-item ${isActive ? "active" : ""}`}
+>
+  Configurações do Site
+</NavLink>
 
       </div>
       <div className="icones-geral-adm-sidebar">

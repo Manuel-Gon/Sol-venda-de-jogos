@@ -1,9 +1,10 @@
 import React from 'react'
+import './PedidosVendas.css'
 
 function PedidosVendas() {
   return (
     <div>
-      asda
+    
     </div>
   )
 }
