@@ -8,7 +8,7 @@ export default function Layout() {
       <Sidebar />
 
       {/* Área onde as páginas vão aparecer */}
-      <div style={{ flex: 1, padding: "20px" }}>
+      <div style={{ flex: 1 }}>
         <Outlet />
       </div>
     </div>
