@@ -1,16 +1,20 @@
 import { createBrowserRouter } from "react-router-dom";
 import TelaInicial from "../Tela-Inicial/TelaInicial";
 import Layout from "../../Adm/components/Layout";
-import Dashboard from "../../Adm/pages/Dashboard";
 import PedidosVendas from "../../Adm/pages/PedidosVendas";
 import GestaoJogos from "../../Adm/pages/GestaoJogos";
 import GestaoCategorias from "../../Adm/pages/GestaoCategorias";
 import Usuarios from "../../Adm/pages/Usuarios";
 import ConfiguracoesSite from "../../Adm/pages/ConfiguracoesSite";
+import Dashboard from "../../Adm/pages/Dashboard";
+import CadastroUsuario from "../CadastroUsuario/CadastroUsuario";
+
 
 const Router = createBrowserRouter([
 
 {path: "/", element: <TelaInicial/>},
+{path: "/CadastroUsuario", element: <CadastroUsuario/>},
+
 
 
 {
