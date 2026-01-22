@@ -44,7 +44,7 @@ function Navbar() {
           {abrirModal && (
             <div className="modal-perfil">
               <Link to="/CadastroUsuario">Cadastro</Link>
-              <Link to="/login">Login</Link>
+              <Link to="/LoginUsuario">Login</Link>
             </div>
           )}
         </div>

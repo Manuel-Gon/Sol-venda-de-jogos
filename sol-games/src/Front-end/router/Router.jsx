@@ -7,13 +7,19 @@ import GestaoCategorias from "../../Adm/pages/GestaoCategorias";
 import Usuarios from "../../Adm/pages/Usuarios";
 import ConfiguracoesSite from "../../Adm/pages/ConfiguracoesSite";
 import Dashboard from "../../Adm/pages/Dashboard";
-import CadastroUsuario from "../CadastroUsuario/CadastroUsuario";
+import CadastroUsuario from "../CadastroLoginUsuario/CadastroUsuario/CadastroUsuario";
+import LoginUsuario from "../CadastroLoginUsuario/LoginUsuario/LoginUsuario";
+
 
 
 const Router = createBrowserRouter([
 
 {path: "/", element: <TelaInicial/>},
+
+//Cadastro e login usuario
 {path: "/CadastroUsuario", element: <CadastroUsuario/>},
+{path: "/LoginUsuario", element: <LoginUsuario/>},
+
 
 
 
